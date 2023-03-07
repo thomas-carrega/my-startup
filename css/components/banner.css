@@ -1,0 +1,36 @@
+/* Header */
+.banner {
+  position: relative;
+  text-align: center;
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+}
+
+.banner .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.banner p {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.banner .btn-primary {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
